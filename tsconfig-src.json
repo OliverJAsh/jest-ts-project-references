@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig-base.json",
+  "include": ["./src/**/*"],
+  // Exclude the tests which are a separate TS project
+  "exclude": ["**/__tests__/**/*"],
+  "compilerOptions": {
+    // Tests TS project depends on this TS project
+    "composite": true,
+    "types": []
+  }
+}

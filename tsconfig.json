@@ -1,0 +1,15 @@
+{
+  // "compilerOptions": {
+  //   "types": []
+  // },
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./tsconfig-src.json"
+    },
+    {
+      "path": "./tsconfig-tests.json"
+    }
+  ]
+}

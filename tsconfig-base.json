@@ -10,6 +10,7 @@
     "outDir": "./target/",
     "rootDir": "./src/",
     // Clear avoid bringing in all types. Whitelist when extending.
-    "types": []
+    "types": [],
+    "allowSyntheticDefaultImports": true
   }
 }

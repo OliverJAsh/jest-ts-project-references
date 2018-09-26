@@ -6,6 +6,8 @@
   "compilerOptions": {
     // Tests TS project depends on this TS project
     "composite": true,
+    // Necessary for `composite`
+    "declaration": true,
     "types": []
   }
 }

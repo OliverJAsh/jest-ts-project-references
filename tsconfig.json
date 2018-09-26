@@ -1,7 +1,6 @@
 {
-  // "compilerOptions": {
-  //   "types": []
-  // },
+  // By default, all files will be included. We want to use our project references instead, so we
+  // clear these.
   "files": [],
   "include": [],
   "references": [
